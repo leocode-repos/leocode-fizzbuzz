@@ -21,22 +21,22 @@ class FizzBuzzTest {
     }
 
     @Test
-    public void test001() {
+    public void FizzTest() {
         assertThat(HelloWorld.FizzBuzz(3)).isEqualTo("Fizz");
     }
 
     @Test
-    public void test002(){
+    public void BuzzTest(){
         assertThat(HelloWorld.FizzBuzz(5)).isEqualTo("Buzz");
     }
 
     @Test
-    public void test003(){
+    public void FizzBuzzTest(){
         assertThat(HelloWorld.FizzBuzz(15)).isEqualTo("FizzBuzz");
     }
 
     @Test
-    public void test004(){
+    public void NumericTest(){
         assertThat(HelloWorld.FizzBuzz(11)).isEqualTo("11");
     }
 
